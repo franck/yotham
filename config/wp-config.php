@@ -18,8 +18,8 @@
  */
 
 define('WP_CACHE', true); //Added by WP-Cache Manager
-define('WP_HOME','http://www.lotusdor.net');
-define('WP_SITEURL','http://www.lotusdor.net');
+define('WP_HOME','http://yotham.com');
+define('WP_SITEURL','http://yotham.com');
 
 // ** Réglages MySQL - Votre hébergeur doit vous fournir ces informations. ** //
 /** Le nom de la base de données de WordPress. */

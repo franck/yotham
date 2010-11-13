@@ -9,7 +9,7 @@ set :default_stage, "production"
 set :application, "yotham"
 set :deploy_in, "/home/yotham/yotham.com"
 
-set :hostname, "yotham.com"
+set :hostname, "69.163.177.208" #"yotham.com"
 role :app, "#{hostname}"
 role :web, "#{hostname}"
 role :db, "#{hostname}", :primary => true
@@ -21,8 +21,8 @@ set :branch, "master"
 set :deploy_via, :remote_cache
 
 #ssh_options[:port] = 32100
-set :user, "yotham"
-set :admin_runner, "yotham"
+set :user, "fdago"
+set :admin_runner, "fdago"
 
 set :use_sudo, false
 set :keep_releases, 2
