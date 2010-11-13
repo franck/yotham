@@ -1,0 +1,42 @@
+[04-Dec-2009 15:13:36] PHP Warning:  array_keys() [<a href='function.array-keys'>function.array-keys</a>]: The first argument should be an array in /home/yotham/public_html/wp-includes/theme.php on line 481
+[04-Dec-2009 15:13:36] PHP Warning:  uksort() [<a href='function.uksort'>function.uksort</a>]: The argument should be an array in /home/yotham/public_html/wp-admin/themes.php on line 62
+[04-Dec-2009 15:13:36] PHP Warning:  array_slice() expects parameter 1 to be array, boolean given in /home/yotham/public_html/wp-admin/themes.php on line 83
+[04-Dec-2009 15:13:36] PHP Warning:  array_keys() [<a href='function.array-keys'>function.array-keys</a>]: The first argument should be an array in /home/yotham/public_html/wp-admin/themes.php on line 171
+[04-Dec-2009 15:13:36] PHP Warning:  natcasesort() [<a href='function.natcasesort'>function.natcasesort</a>]: The argument should be an array in /home/yotham/public_html/wp-admin/themes.php on line 172
+[11-Dec-2009 13:27:57] PHP Notice: XML error: not well-formed (invalid token) at line 169, column 0 in /home/yotham/public_html/wp-includes/class-simplepie.php on line 1791
+[11-Dec-2009 13:28:33] PHP Notice: XML error: not well-formed (invalid token) at line 169, column 0 in /home/yotham/public_html/wp-includes/class-simplepie.php on line 1791
+[11-Dec-2009 14:14:46] PHP Notice: XML error: not well-formed (invalid token) at line 169, column 0 in /home/yotham/public_html/wp-includes/class-simplepie.php on line 1791
+[11-Dec-2009 14:21:58] PHP Notice: XML error: not well-formed (invalid token) at line 169, column 0 in /home/yotham/public_html/wp-includes/class-simplepie.php on line 1791
+[11-Dec-2009 14:37:55] PHP Notice: XML error: not well-formed (invalid token) at line 169, column 0 in /home/yotham/public_html/wp-includes/class-simplepie.php on line 1791
+[11-Dec-2009 14:42:41] PHP Notice: XML error: not well-formed (invalid token) at line 169, column 0 in /home/yotham/public_html/wp-includes/class-simplepie.php on line 1791
+[11-Dec-2009 14:43:07] PHP Notice: XML error: not well-formed (invalid token) at line 169, column 0 in /home/yotham/public_html/wp-includes/class-simplepie.php on line 1791
+[11-Dec-2009 14:55:09] PHP Notice: XML error: not well-formed (invalid token) at line 183, column 0 in /home/yotham/public_html/wp-includes/class-simplepie.php on line 1791
+[11-Dec-2009 15:07:27] PHP Notice: XML error: not well-formed (invalid token) at line 183, column 0 in /home/yotham/public_html/wp-includes/class-simplepie.php on line 1791
+[11-Dec-2009 15:10:38] PHP Notice: XML error: not well-formed (invalid token) at line 183, column 0 in /home/yotham/public_html/wp-includes/class-simplepie.php on line 1791
+[16-Dec-2009 12:12:25] PHP Fatal error:  Out of memory (allocated 62652416) (tried to allocate 17152 bytes) in /home/yotham/public_html/wp-admin/includes/image.php on line 147
+[16-Dec-2009 12:13:50] PHP Fatal error:  Out of memory (allocated 62652416) (tried to allocate 17152 bytes) in /home/yotham/public_html/wp-admin/includes/image.php on line 147
+[17-Dec-2009 20:56:49] PHP Fatal error:  Out of memory (allocated 62652416) (tried to allocate 4288 bytes) in /home/yotham/public_html/wp-admin/includes/image.php on line 147
+[17-Dec-2009 21:00:22] PHP Fatal error:  Out of memory (allocated 62652416) (tried to allocate 17152 bytes) in /home/yotham/public_html/wp-admin/includes/image.php on line 147
+[17-Dec-2009 21:00:56] PHP Fatal error:  Out of memory (allocated 62652416) (tried to allocate 17152 bytes) in /home/yotham/public_html/wp-admin/includes/image.php on line 147
+[17-Dec-2009 21:19:16] PHP Fatal error:  Out of memory (allocated 62652416) (tried to allocate 16648 bytes) in /home/yotham/public_html/wp-admin/includes/image.php on line 147
+[09-Jan-2010 22:22:21] PHP Fatal error:  Out of memory (allocated 62390272) (tried to allocate 3745 bytes) in /home/yotham/public_html/wp-admin/includes/image.php on line 147
+[09-Jan-2010 22:23:17] PHP Fatal error:  Out of memory (allocated 62390272) (tried to allocate 3745 bytes) in /home/yotham/public_html/wp-admin/includes/image.php on line 147
+[30-May-2010 17:13:49] PHP Fatal error:  Out of memory (allocated 62390272) (tried to allocate 17152 bytes) in /home/yotham/public_html/wp-admin/includes/image.php on line 147
+[30-May-2010 17:16:56] PHP Warning:  imagecreatefromstring() [<a href='function.imagecreatefromstring'>function.imagecreatefromstring</a>]: gd-jpeg: JPEG library reports unrecoverable error:  in /home/yotham/public_html/wp-admin/includes/image.php on line 147
+[30-May-2010 17:16:56] PHP Warning:  imagecreatefromstring() [<a href='function.imagecreatefromstring'>function.imagecreatefromstring</a>]: Passed data is not in 'JPEG' format in /home/yotham/public_html/wp-admin/includes/image.php on line 147
+[30-May-2010 17:16:56] PHP Warning:  imagecreatefromstring() [<a href='function.imagecreatefromstring'>function.imagecreatefromstring</a>]: Couldn't create GD Image Stream out of Data in /home/yotham/public_html/wp-admin/includes/image.php on line 147
+[01-Sep-2010 01:48:09] PHP Notice: A feed could not be found at http://wordpress.org/extend/plugins/rss/browse/new/ in /home/yotham/public_html/wp-includes/class-simplepie.php on line 1680
+[01-Sep-2010 01:48:09] PHP Notice: A feed could not be found at http://wordpress.org/extend/plugins/rss/browse/updated/ in /home/yotham/public_html/wp-includes/class-simplepie.php on line 1680
+[04-Sep-2010 12:17:31] PHP Notice: A feed could not be found at http://wordpress.org/extend/plugins/rss/browse/popular/ in /home/yotham/public_html/wp-includes/class-simplepie.php on line 1680
+[04-Sep-2010 12:17:31] PHP Notice: A feed could not be found at http://wordpress.org/extend/plugins/rss/browse/new/ in /home/yotham/public_html/wp-includes/class-simplepie.php on line 1680
+[04-Sep-2010 13:32:17] PHP Notice: A feed could not be found at http://wordpress.org/extend/plugins/rss/browse/new/ in /home/yotham/public_html/wp-includes/class-simplepie.php on line 1680
+[04-Sep-2010 13:32:17] PHP Notice: A feed could not be found at http://wordpress.org/extend/plugins/rss/browse/updated/ in /home/yotham/public_html/wp-includes/class-simplepie.php on line 1680
+[06-Sep-2010 14:14:20] PHP Notice: A feed could not be found at http://wordpress.org/extend/plugins/rss/browse/new/ in /home/yotham/public_html/wp-includes/class-simplepie.php on line 1680
+[08-Sep-2010 01:31:27] PHP Notice: A feed could not be found at http://wordpress.org/extend/plugins/rss/browse/new/ in /home/yotham/public_html/wp-includes/class-simplepie.php on line 1680
+[09-Sep-2010 05:48:14] PHP Notice: A feed could not be found at http://wordpress.org/extend/plugins/rss/browse/popular/ in /home/yotham/public_html/wp-includes/class-simplepie.php on line 1680
+[09-Sep-2010 05:48:14] PHP Notice: A feed could not be found at http://wordpress.org/extend/plugins/rss/browse/new/ in /home/yotham/public_html/wp-includes/class-simplepie.php on line 1680
+[09-Sep-2010 05:48:14] PHP Notice: A feed could not be found at http://wordpress.org/extend/plugins/rss/browse/updated/ in /home/yotham/public_html/wp-includes/class-simplepie.php on line 1680
+[21-Sep-2010 01:32:00] PHP Notice: A feed could not be found at http://wordpress.org/extend/plugins/rss/browse/popular/ in /home/yotham/public_html/wp-includes/class-simplepie.php on line 1680
+[26-Sep-2010 04:01:07] PHP Notice: A feed could not be found at http://wordpress.org/extend/plugins/rss/browse/new/ in /home/yotham/public_html/wp-includes/class-simplepie.php on line 1680
+[02-Oct-2010 15:09:03] PHP Notice: A feed could not be found at http://wordpress.org/extend/plugins/rss/browse/updated/ in /home/yotham/public_html/wp-includes/class-simplepie.php on line 1680
+[21-Oct-2010 08:17:28] PHP Notice: A feed could not be found at http://wordpress.org/extend/plugins/rss/browse/updated/ in /home/yotham/public_html/wp-includes/class-simplepie.php on line 1680

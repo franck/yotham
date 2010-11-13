@@ -1,0 +1,112 @@
+/*  
+Theme Name: Yotham
+Theme URI: http://www.merrycreation/yotham
+Description: Le theme du site de Yotham Baranes
+Version: 1.0
+Author: Franck D'agostini
+*/
+
+@import url('blueprint/screen.css');
+
+div.colborder {
+  border-right:none;
+}
+
+body {
+  background: #FFF;
+  text-align:center;
+  font-family:arial,helvetica,sans-serif;
+  font-size:0.9em;
+  color:#333;
+}
+
+a {
+  color:#546188;
+}
+a:hover{
+  color:#333;
+}
+h1,h2,h3,h4 {
+  color:#333;
+}
+h2,h3,h4 {
+  font-family:georgia,times,serif;
+  font-weight:bold;
+}
+h2 {
+  font-size:1.1em;
+  line-height:1.1em;
+}
+h2 a {
+  text-decoration:none;
+}
+
+#container {
+  text-align:left;
+  margin:30px auto;
+  width:960px;
+}
+
+#header {
+  background:url(images/header.png) repeat-x top left;
+  color:#F5F5F5;
+  padding:1.5em 3em;
+}
+#header h1 {
+  font-size:2.2em;
+  font-weight:normal;
+  margin:0;
+}
+#header h1 a {
+  color:#FFF;
+  text-decoration:none;
+}
+#header p {
+  font-size:1.3em;
+  margin:0;
+}
+
+#wrapper {}
+#w {
+  padding:2em 0;
+}
+
+#sidebar {}
+#sidebar ul {
+  list-style:none;
+  margin:0;
+}
+#sidebar a {
+  color:#666;
+  text-decoration:none;
+}
+#sidebar a:hover {
+  color:#2F4E6F;
+  text-decoration:underline;
+}
+
+.post {
+  margin-bottom:2em;
+}
+.post-header {
+  text-align:right;
+}
+.post-header h3 {
+  font-size:1.1em;
+  line-height:1.1em;
+  color:#444;
+}
+
+p.post-date-single {
+  color:#888;
+  font-family:georgia,times,serif;
+  font-weight:bold;
+}
+h2.post-title-single {
+  font-size:2em;
+  font-weight:normal;
+}
+
+.nav-right {
+  text-align:right;
+}
