@@ -1,34 +1,30 @@
 #require "vendor/plugins/thinking-sphinx/lib/thinking_sphinx/deploy/capistrano.rb"
 
-# multi-staging
-# command : cap staging deploy
-set :stages, %w(staging production)
-set :default_stage, "production"
-#require 'capistrano/ext/multistage'
-
+#ssh_options[:port] = 32100
+set :user, "fdago"
 set :application, "yotham"
-set :deploy_in, "/home/yotham/yotham.com"
+set :deploy_in, "/home/fdago/yotham.com"
+set :hostname, "yotham.com" #"69.163.177.208"
 
-set :hostname, "69.163.177.208" #"yotham.com"
+
+
 role :app, "#{hostname}"
 role :web, "#{hostname}"
 role :db, "#{hostname}", :primary => true
 
+# multi-staging
+# command : cap staging deploy
+set :stages, %w(staging production)
+set :default_stage, "production"
+
 set :scm, :git
 set :repository, "git@github.com:franck/#{application}.git"
-#set :repository, "git@github.com:franck/expertnetwork.git"
 set :branch, "master"
 set :deploy_via, :remote_cache
-
-#ssh_options[:port] = 32100
-set :user, "fdago"
-set :admin_runner, "fdago"
 
 set :use_sudo, false
 set :keep_releases, 2
 set :git_shallow_clone, 1
-
-#set :rake, "/opt/ruby-enterprise/bin/rake"
 
 task :production do
   set :deploy_to, "#{deploy_in}/#{application}/app"

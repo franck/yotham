@@ -18,21 +18,21 @@
  */
 
 define('WP_CACHE', true); //Added by WP-Cache Manager
-define('WP_HOME','http://yotham.com');
-define('WP_SITEURL','http://yotham.com');
+define('WP_HOME','http://www.yotham.com');
+define('WP_SITEURL','http://www.yotham.com');
 
 // ** Réglages MySQL - Votre hébergeur doit vous fournir ces informations. ** //
 /** Le nom de la base de données de WordPress. */
-define('DB_NAME', 'yotham');
+define('DB_NAME', 'yothamcom');
 
 /** Utilisateur de la base de données MySQL. */
-define('DB_USER', 'yotham');
+define('DB_USER', 'barouf');
 
 /** Mot de passe de la base de données MySQL. */
 define('DB_PASSWORD', 'thibamay');
 
 /** Adresse de l'hébergement MySQL. */
-define('DB_HOST', 'mysql.yotham.com');
+define('DB_HOST', 'sql.barouf.info');
 
 /** Jeu de caractères à utiliser par la base de données lors de la création des tables. */
 define('DB_CHARSET', 'utf8');
